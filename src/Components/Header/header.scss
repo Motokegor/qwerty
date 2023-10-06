@@ -1,0 +1,32 @@
+$btn-color:rgb(255 129 0);
+$link-color: white;
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .logo {
+    margin-top: 26px;
+  }
+  .navigation_wrapper {
+    display: flex;
+    gap: 5%;
+    width: 40%;
+    margin-top: 41px;
+    .nav_link {
+        text-decoration: none;
+        color: $link-color;
+      }
+  }
+  .btn {
+    width: 10%;
+    background: $btn-color;
+    border-radius: 90px;
+    margin-top: 25px;
+    text-decoration: none;
+    color: $link-color;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
